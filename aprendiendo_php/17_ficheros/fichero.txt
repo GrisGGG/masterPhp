@@ -1,0 +1,4 @@
+Hola soy un fichero
+HHHHH
+
+JJJJN*********sOY UN TEXTO INCRUSTDO DESDE PHP*********sOY UN TEXTO INCRUSTDO DESDE PHP
