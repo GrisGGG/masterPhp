@@ -9,7 +9,12 @@ class Usuario{
     public $email;
 
     public function __construct(){
-        echo "Instancia del objeto creada";
+            $this->nombre ="Guadalupe";
+            $this->email = "guadalupe@hotmail";
+        // echo "Instancia del objeto creada";
+    }
+    public function __toString(){
+        return "Hola, {$this->nombre}, estas registrado con el email {$this->email}";
     }
     public function __destruct(){
         echo "destruyendo el objeto";
@@ -18,6 +23,7 @@ class Usuario{
 
 $usuario = new Usuario();
 
-for($i=0; $i<= 100; $i++){
-    echo $i."<br/>";
-}
+// for($i=0; $i<= 100; $i++){
+//     echo $i."<br/>";
+// }
+echo $usuario;
